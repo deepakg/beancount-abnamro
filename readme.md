@@ -28,4 +28,4 @@ vendor_map = {
 
 You could also leave the dictionary bank if you prefer to balance your books by hand. I personally prefer to map the most common transactions automatically and then use [fava](https://beancount.github.io/fava/) to look deeper.
 
-You'll also see a file called bank_utils.py. This one tries to parse transaction descriptions that ABN AMRO uses to a sensible, beancount friendly payee and description. Each year I come across certain transaction descriptions (let's say around 1 in 1000) that defy all existing parsing logic. You can customize the `unparsable_name` and `unparsable_description` methods to handle those. By default these methods simply return whatever you pass to them.
+You'll also see a file called bank_utils.py. It tries to parse transaction descriptions that ABN AMRO uses to a sensible, beancount friendly payee and narration. Each year I come across certain transaction descriptions (let's say around 1 in 1000) that defy all existing parsing logic. You can customize the `unparsable_name` and `unparsable_description` methods to handle those. By default these methods simply return whatever you pass to them.
