@@ -2,7 +2,7 @@
 ABN AMRO Bank in the Netherlands lets you export your bank statements to plain text (.TAB) files. This importer (beancount-abnamro) helps you convert them to beancount transactions that you can append to your ledger.
 
 ## Installation
-This module isn't available on PyPy yet so you'll have to install in manually. A sample statement and configuration file is included in the repository.
+This module isn't available on PyPI yet so you'll have to install in manually. A sample statement and configuration file is included in the repository.
 
 ## Usage
 Assuming you already have beancount installed and have configured it to use this importer, you should be able to run bean-extract.
